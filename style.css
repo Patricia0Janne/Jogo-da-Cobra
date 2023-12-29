@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #191919; 
+    display: flex;
+    min-height: 100vh;
+    align-items: center;        /* alinha os itens, por padrão na horizontal, mas no inicio da tela.  */
+    justify-content: center;  /* coloca todo conteudo no meio da interface*/
+    flex-direction: column;   /*  ornaniza os itens na direção coluna */
+    color: white;
+}
+
+canvas{
+    background: #111;
+}
